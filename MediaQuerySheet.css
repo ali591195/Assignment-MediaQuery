@@ -1,0 +1,58 @@
+@media screen and (min-width: 993px) {
+    #form-div {
+        width: 900px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #form-div {
+        width: 500px;
+    }
+    #background-div {
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 601px) {
+    /*Band Section*/
+        #band-members {
+            flex-direction: column;
+        }
+        #band-members div {
+            width: 100%;
+        }
+    
+    /*Tour Section*/
+        #ticket-section {
+            flex-direction: column;
+        }
+        .ticket-divs {
+            width: 100%;
+            padding: 0 0 0 2.5px;
+            margin-bottom: 16px;
+        }
+        #form-div {
+            width: auto;
+            box-sizing: border-box;
+            margin: 0 10px;
+        }
+        
+    
+    /*Contact Section*/
+        #contact {
+            flex-direction: column;
+        }
+        #contact-info {
+            width: 100%;
+        }
+        #contact-form {
+            width: 100%;
+        }
+        #input-holder {
+            justify-content: start;
+            flex-direction: column;
+        }
+        #contact-form div div{
+            width: 100%;
+        }
+}
